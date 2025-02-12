@@ -1,0 +1,75 @@
+@import url(variable.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080c15;
+}
+.row_1{
+    width: 539px;
+    height: 240px;
+    position: absolute;
+    top: 70px;
+    left: -40px;
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+.row_1 h1{
+    font-family: "Poppins-Bold";
+    font-size: 90px;
+    color: #FEC3C7;
+    left: 40px;
+    position: absolute;
+    top: 300;
+}
+.row_1 span{
+    color: #9AD7F3;
+}
+.row_1 span.span2{
+    color: #6BDFDA;
+}
+.row_1 h2{
+    font-family: "Poppins-Regular";
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 417px;
+    left: 40px;
+    line-height: 1.7;
+}
+.row_1 button{
+    width: 140px;
+    height: 60px;
+    color: var(--color-1);
+    font-family: "Poppins-Regular";
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background-color: #fff;
+    position: absolute;
+    top: 550px;
+    left: 40px  ;
+}
+.row_2{
+    width: 539px;
+    height: 720px;
+    /* background: blue; */
+    position: absolute;
+    top: auto;
+    right: auto;
+}
+
+.row_2 img{
+    width: 700px;
+    position: relative;
+    top: 18px;
+    left: 710px;
+    z-index: -8;
+}
