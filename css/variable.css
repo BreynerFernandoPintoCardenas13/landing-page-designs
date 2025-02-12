@@ -1,0 +1,10 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+}
+
+@font-face{
+    font-family: 'Poppins-Regular';
+    src: url(../Storage/font/Montserrat/Poppins-Regular.ttf);
+}

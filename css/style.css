@@ -1,0 +1,121 @@
+@import url(variable.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    margin: auto;
+}
+.row_1{
+    width: 539px;
+    height: 240px;
+    position: absolute;
+    top: auto;
+    margin: auto;
+    left: 40px;
+    margin-left: 25px;
+    margin-right: 200px;
+}
+.row_1 h1{
+    font-family: "Montserrat-ExtraBold";
+    font-size: 65px;
+    color: var(--color-1);
+    top: 30px;
+    margin: auto;
+    width: 3;
+    position: absolute;
+}
+.row_1 h2{
+    font-family: "Montserrat-Regular";
+    font-weight: lighter;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-1);
+    position: absolute;
+    left:40x;
+    width: 400px;
+    height: 500px;
+    top: 280px;
+}
+.row_1 button{
+    width: 140px;
+    height: 50px;
+    color: #ffff;
+    font-family: "Poppins-Regular";
+    font-weight: lighter;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    overflow: none;
+    background-color: #457D61;
+    position: absolute;
+    top: 380px;
+    left: px;
+}
+.row_2{
+    width: 539px;
+    height: 720px;
+    /* background: blue; */
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+.imageLeft{
+    display: flex;
+    width: 400px;
+    position: relative;
+    top: 400px;
+    left: 60px;
+}
+.imageRight{
+    display: flex;
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    gap: 15px;
+    left:980px;
+}
+
+.centerImage {
+    width: 400px;
+    top: 60px;
+    position: absolute;
+    left: 520px;
+}
+
+.row_3{
+    width: 539px;
+    height: 240px;
+    position: absolute;
+    top: 350px;
+    margin: auto;
+    left: 980px;
+}
+.row_3 h1{
+    font-family: "Montserrat-ExtraBold";
+    font-size: 65px;
+    color: var(--color-1);
+    top: 200px;
+    margin: auto;
+    width: 3;
+    position: absolute;
+}
+.row_3 h2{
+    font-family: "Montserrat-Regular";
+    font-weight: lighter;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-1);
+    position: absolute;
+    left:900x;
+    width: 400px;
+    height: 500px;
+    top: 100px;
+}
