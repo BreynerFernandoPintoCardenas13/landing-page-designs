@@ -1,0 +1,14 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+}
+
+@font-face{
+    font-family: 'Poppins-SemiBold';
+    src: url(../storage/font/Montserrat/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family: 'Avenir-Roman';
+    src: url(../storage/font/Montserrat/AvenirLTStd-Roman.otf);
+}
