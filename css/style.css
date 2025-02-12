@@ -1,0 +1,134 @@
+@import url(variable.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.row_1{
+    width: 539px;
+    height: 240px;
+    position: absolute;
+    top: auto;
+    margin: auto;
+    left: 40px;
+    margin-left: 25px;
+    margin-right: 200px;
+}
+.row_1 h1{
+    left: 350px;
+    font-family: "Montserrat-ExtraBold";
+    font-size: 50px;
+    text-align: center;
+    color: var(--color-1);
+    top: 40px;
+    margin: auto;
+    width: 600px;
+    position: absolute;
+}
+.row_1 h2{
+    font-family: "Montserrat-Regular";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-1);
+    position: absolute;
+    left:450px;
+    width: 400px;
+    height: 500px;
+    top: 170px;
+}
+.row_1 button{
+    width: 140px;
+    height: 50px;
+    color: #ffff;
+    font-family: "Poppins-Regular";
+    font-weight: lighter;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    overflow: none;
+    background-color: #252522;
+    position: absolute;
+    top: 250px;
+    left: 580px;
+}
+.row_2{
+    width: 539px;
+    height: 720px;
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+.imageLeft{
+    display: flex;
+    width: 190px;
+    position: relative;
+    top: 345px;
+    left: 300px;
+}
+.imageRight{
+    display: flex;
+    width: 190px;
+    position: relative;
+    top: -25px;
+    left: 935px;
+}
+
+.centerImage {
+    width: 250px;
+    top: 345px;
+    height: 430px;
+    position: absolute;
+    left: 590px;
+}
+
+.rightImage{
+    width: 150px;
+    top: 500px;
+    left: 100px;
+    position: absolute;
+}
+.leftImage{
+    width: 150px;
+    top: 350px;
+    position: absolute;
+    left: 1200px;
+}
+
+.TextRight{
+    width: 110px;
+    left: 1200px;
+    top: 590px;
+    position: absolute;
+}
+
+.textLeft{
+    width: 140px;
+    left: 100px;
+    top: 340px;
+    position: absolute;
+
+}
+
+.logoLeft{
+    width:300px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+
+}
+
+.logoRight{
+    width: 300px;
+    top: 50px;
+    left: 1000px;
+    position: absolute;
+
+}
