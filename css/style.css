@@ -1,0 +1,125 @@
+@import url(variable-page4.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.row_1{
+    width: 539px;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 800px;
+
+}
+.row_1 div{
+    width: 20000px;
+    left: 2000px;
+    position: relative;
+}
+.row_1 h1{
+    font-family: "Avenir-Heavy";
+    font-size: 80px;
+    width: 600px;
+    color: var(--color-1);
+    top: 300;
+    left: 500px;
+}
+.row_1 h2{
+    font-family: "Avenir-Roman";
+    font-weight: lighter;
+    font-size: 23px;
+    color: var(--color-1);
+    position: absolute;
+    top: 220px;
+    line-height: 1.5;
+    color: #5c5c5c;
+    width: 500px;
+}
+.row_1 button{
+    width: 150px;
+    height: 60px;
+    color: #ffff;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background-color: #252525;
+    position: absolute;
+    top: 400px;
+}
+.row_2{
+    width: auto;
+    height: auto;
+    /* background: blue; */
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.row_2 img{
+    width: 700px;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    z-index: -8;
+}
+
+.row_3{
+        width: 539px;
+        height: auto;
+        position: absolute;
+        top: 530px;
+        left: 800px;
+    
+}
+.row_3 h1{
+    font-family: "Avenir-Roman";
+    color:  #6c757d;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+}
+.row_3 h2{
+    font-family: "Avenir-Roman";
+    color:  #6c757d;
+    font-weight: lighter;
+    top: 900px;
+    font-size: 18px;
+    width: 500px;
+    line-height: 25px;
+    position: relative;
+    top: 60px;
+}
+.row_4{
+    width: 539px;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    left: 800px;
+
+}
+.row_4 h1{
+    font-family: "Avenir-Roman";
+    color:  #6c757d;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+.row_4 h2{
+    top: 30px;
+    position: relative;
+    font-family: "Avenir-Roman";
+    color:  #6c757d;
+    font-weight: lighter;
+    font-size: 18px;
+    width: 500px;
+    line-height: 25px;
+}
+    
