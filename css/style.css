@@ -1,0 +1,96 @@
+@import url(variable-page19.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin: 170px 826px 0 131px;
+    width: 483px;
+    height: 426px;
+}
+
+.text h1{
+    font-size: 60px;
+    width: 350px;
+    font-family: "Avenir-Heavy";
+    color: var(--texto-marron);
+}
+
+.text p{
+    font-size: 20px;
+    width: 350px;
+    font-family: "Avenir-Roman";
+    font-weight: lighter;
+    color: var(--texto-marron);
+}
+
+.text button{
+    width: 150px;
+    height: 100px;
+    font-size: 16px;
+    border-radius: 100px;
+    font-family: "Avenir-Roman";
+    background-color: #A36A4F;
+}
+
+.imageP{
+    display: flex;
+    margin: 86px 63.89px 374px 686px;
+    position: relative;
+    top: -650px;
+}
+.imageP .image1{
+    height: 440px;
+    width: 440px;
+}
+.imageP .image2{
+    width: 312px;
+    height: 312px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.imageF{
+    display: flex;
+    margin: 698px 677px 64px 115px;
+    position: relative;
+    top: -1480px;
+    gap: 15px;
+    left: 160px;
+   
+}
+
+.imageF img{
+    width: 878px;
+    height: 188px;
+}
+article{
+    height: 100px;
+}
+.carrusel{
+    background-color: #363032;
+    left: -1680px;
+    position: relative;
+    width: 1440px;
+    top: -700px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
