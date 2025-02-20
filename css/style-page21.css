@@ -1,0 +1,57 @@
+@import url(variable-page21.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+}
+
+.backgroundImage{
+
+}
+.backgroundImage img{
+    width: 1440px;
+    height: 1012px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0px 401px 0 402px;
+}
+
+.text h1{
+    font-size: 96px;
+    font-family: "Lato-Bold";
+}
+.text p{
+    width: 500px;
+    font-weight: lighter;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Lato-Regular";
+}
+.text button{
+    width: 175px;
+    border-radius: 100px;
+    height: 66px;
+    font-size: 20px;
+}
+
+article{
+
+}
+.carrusel{
+    display: flex;
+}
+.carrusel img{
+    width: 480px;
+}
