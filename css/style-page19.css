@@ -1,0 +1,98 @@
+@import url(variable-page19.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin: 170px 826px 0 131px;
+    width: 483px;
+    height: 426px;
+}
+
+.text h1{
+    font-size: 60px;
+    width: 350px;
+    font-family: "Avenir-Heavy";
+}
+
+.text p{
+    font-size: 20px;
+    width: 350px;
+    font-family: "Avenir-Roman";
+    font-weight: lighter;
+}
+
+.text button{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 100px;
+    font-family: "Avenir-Roman";
+}
+
+.imageP{
+    display: flex;
+    
+    
+    margin: 86px 63.89px 374px 686px;
+    position: relative;
+    top: -650px;
+}
+.imageP img{
+    height: 600px;
+    width: 620px;
+}
+
+.footer{
+    display: flex;
+}
+
+.imageF{
+    display: flex;
+    margin: 698px 677px 64px 115px;
+    position: relative;
+    top: -1750px;
+    gap: 15px;
+}
+
+.imageF img{
+    width: 200px;
+    height: 369px;
+}
+
+.textF{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    top: 750px;
+    left: 850px;
+    gap: 20px;
+}
+.textF h4{
+    font-family: "Avenir-Medium";
+}
+.textF p{
+    font-family: "Avenir-Roman";
+    width: 300px;
+    color: #4F4F4F;
+}
+
+.imagesT{
+    display: flex;
+    gap: 10px;
+}
+
+.imagesT img{
+    width: 80px;
+}

@@ -1,0 +1,18 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font-page19/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url(../storage/font-page19/AvenirLTStd-Medium.otf);
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font-page19/AvenirLTStd-Heavy.otf);
+}
