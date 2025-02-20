@@ -1,0 +1,18 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+}
+
+@font-face{
+    font-family: 'Times-Regular';
+    src: url(../Storage/font-page13/ABeeZee-Regular.otf);
+}
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url(../Storage/font-page13/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: 'Poppins-Regular';
+    src: url(../Storage/font-page13/Poppins-Regular.ttf);
+}
