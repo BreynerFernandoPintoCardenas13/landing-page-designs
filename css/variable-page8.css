@@ -1,0 +1,19 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+    --color-3: #E5B94B;
+}
+
+@font-face{
+    font-family: 'WorkSans-Bold';
+    src: url(../Storage/font-page8/WorkSans-Bold.ttf);
+}
+@font-face{
+    font-family: 'WorkSans-Light';
+    src: url(../Storage/font-page8/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorSans-Medium";
+    src: url(../storage/font-page8/WorkSans-Medium.ttf);
+}
