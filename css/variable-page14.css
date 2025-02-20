@@ -1,0 +1,19 @@
+
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+}
+
+@font-face{
+    font-family: 'Poppins-Bold';
+    src: url(../Storage/font-page14/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: 'Poppins-Light';
+    src: url(../Storage/font-page14/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: 'Poppins-Regular';
+    src: url(../Storage/font-page14/Poppins-Regular.ttf);
+}
+    
